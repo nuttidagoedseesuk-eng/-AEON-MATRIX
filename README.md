@@ -36,3 +36,9 @@ git clean -fd
 
 # 3. สั่งดึงข้อมูลล่าสุดจาก Cloud เพื่อยืนยันว่าตรงกับฐานธรรมนูญล่าสุด
 git pull origin main
+# 1. จัดเตรียมและบันทึกการเปลี่ยนแปลงทั้งหมด
+git add .
+git commit -m "chore: resolve git merge conflict and normalize system metrics"
+
+# 2. ผลักดันซอร์สโค้ดพิมพ์เขียวที่สะอาดหมดจดขึ้นสู่กิ่งหลัก
+git push origin main
